@@ -18,6 +18,8 @@ ul {
 
 li {
   float: left;
+  font-family: 'Press Start 2P';
+  font-size: 2rem;
 }
 
 li a {
@@ -58,7 +60,7 @@ li a {
 }
 
 .title-text {
-  font-size: 4vw;
+  font-size: 4.5vw;
 }
 
 .sticky {
