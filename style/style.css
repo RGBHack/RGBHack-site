@@ -19,7 +19,7 @@ body {
 }
 
 .section {
-    height: 100vh;
+  height: 100vh;
 }
 
 .main-box {
@@ -80,9 +80,12 @@ body {
 }
 
 .gradient {
-  background: -webkit-linear-gradient(0deg, #e06666 0%,
+  background: -webkit-linear-gradient(
+    0deg,
+    #e06666 0%,
     #6aa84f 50%,
-     #3d85c6 100%);
+    #3d85c6 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
