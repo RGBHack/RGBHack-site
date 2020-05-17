@@ -1,11 +1,12 @@
 body, html {
   height: 100%;
+  background-color: aliceblue;
 }
 
 .parallax {
   /* The image used */
   /* background-image: url('img_parallax.jpg'); */
-  background-color: blue;
+  background-color: aliceblue; 
 
   /* Full height */
   height: 100%; 
