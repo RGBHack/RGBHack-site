@@ -10,7 +10,7 @@ body {
 
 .header {
   padding: 10px 16px;
-  background: white;
+  background: aliceblue;
   color: black;
 }
 
@@ -18,21 +18,20 @@ body {
   padding: 16px;
 }
 
+.section {
+    height: 100vh;
+}
+
 .main-box {
-  position: relative;
   background-color: aliceblue;
   margin: 0 auto;
   width: 100%;
-  padding-top: 50%;
+  height: 70vh;
+  padding: 10px 50px;
 }
 
-.main-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  padding: 30px;
+.title-text {
+  font-size: 4vw;
 }
 
 .sticky {
@@ -78,4 +77,12 @@ body {
     rgba(66, 101, 195, 1) 100%
   );
   border-radius: 10px;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(0deg, rgba(203, 74, 74, 1) 0%,
+    rgba(69, 203, 73, 1) 50%,
+    rgba(66, 101, 195, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
