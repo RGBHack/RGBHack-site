@@ -80,9 +80,9 @@ body {
 }
 
 .gradient {
-  background: -webkit-linear-gradient(0deg, rgba(203, 74, 74, 1) 0%,
-    rgba(69, 203, 73, 1) 50%,
-    rgba(66, 101, 195, 1) 100%);
+  background: -webkit-linear-gradient(0deg, #e06666 0%,
+    #6aa84f 50%,
+     #3d85c6 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
