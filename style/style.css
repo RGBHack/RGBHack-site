@@ -17,15 +17,36 @@ p {
 }
 
 r {
-  color: #e06666;
+  background: -webkit-linear-gradient(
+    0deg,
+    #f64040ff,
+    #ffb217ff
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 g {
-  color: #6aa84f;
+  background: -webkit-linear-gradient(
+    0deg,
+    #3cff4aff,
+    #2bffe5ff
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 bl {
-  color: #3d85c6;
+  background: -webkit-linear-gradient(
+    0deg,
+    #2e56ffff,
+    #774cffff
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar > li {
