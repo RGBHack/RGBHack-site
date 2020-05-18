@@ -1,7 +1,4 @@
-window.onscroll = function() {myFunction()};
-
 var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
@@ -16,3 +13,15 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+$(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $("#header").addClass("active");
+        console.log("scroll start")
+    }
+    else {
+        $("#header").removeClass("active");
+        console.log("scroll stop")
+    }
+});

@@ -35,10 +35,18 @@ li a {
   margin: 0 auto;
 }
 
-.header {
+#header {
   padding: 10px 16px;
   background-image: url("/img/background.png");
   color: black;
+  position: fixed;
+  z-index: 9000;
+  overflow: auto;
+  transition: all 0.5s linear;
+}
+
+#header.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .content {
