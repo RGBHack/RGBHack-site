@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 nav {
@@ -37,7 +37,7 @@ li a {
 
 .header {
   padding: 10px 16px;
-  background: aliceblue;
+  background-image: url("/img/background.png");
   color: black;
 }
 
@@ -50,7 +50,7 @@ li a {
 }
 
 .main-box {
-  background-color: aliceblue;
+  background-image: url("/img/background.png");
   margin: auto;
   margin-top: 120px;
   width: 94%;
