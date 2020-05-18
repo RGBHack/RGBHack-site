@@ -89,9 +89,9 @@ li a {
   background: rgb(203, 74, 74);
   background: linear-gradient(
     180deg,
-    rgba(203, 74, 74, 1) 0%,
-    rgba(69, 203, 73, 1) 50%,
-    rgba(66, 101, 195, 1) 100%
+    #e06666 0%,
+    #6aa84f 50%,
+    #3d85c6 100%
   );
   border-radius: 10px;
 }
@@ -101,9 +101,9 @@ li a {
   background: rgb(203, 74, 74);
   background: linear-gradient(
     180deg,
-    rgba(203, 74, 74, 1) 0%,
-    rgba(69, 203, 73, 1) 50%,
-    rgba(66, 101, 195, 1) 100%
+    #e06666 0%,
+    #6aa84f 50%,
+    #3d85c6 100%
   );
   border-radius: 10px;
 }
