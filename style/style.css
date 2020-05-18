@@ -28,6 +28,19 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin: auto;
+}
+
+li a:hover {
+  background: -webkit-linear-gradient(
+    0deg,
+    #e06666 0%,
+    #6aa84f 50%,
+    #3d85c6 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main {
@@ -43,6 +56,7 @@ li a {
   z-index: 9000;
   overflow: auto;
   transition: all 0.2s linear;
+  vertical-align: middle;
 }
 
 #header.active {
@@ -50,7 +64,7 @@ li a {
 }
 
 .content {
-  padding: 16px;
+  padding-top: 20px;
 }
 
 .section {
