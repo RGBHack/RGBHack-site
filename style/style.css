@@ -129,6 +129,23 @@ li a:hover {
   margin: auto;
 }
 
+.content-div {
+  margin: auto;
+  width: 94%;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.content-box {
+  margin: auto;
+  width: 94%;
+  box-shadow: 5px 10px 18px #888888;
+  width: 35.5vw;
+  height: 55vh;
+  background-color: white;
+  margin-top: 5vh;
+  display: inline-block;
+}
+
 .sticky {
   position: fixed;
   top: 0;
