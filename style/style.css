@@ -46,6 +46,22 @@ li a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-linkk {
+  background: -webkit-linear-gradient(
+    0deg,
+    #ff0000 0%,
+    #00ff08 50%,
+    #0044ff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-color: transparent; */
+}
+
 .main {
   width: 80%;
   margin: 0 auto;
