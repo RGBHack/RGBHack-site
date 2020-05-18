@@ -18,7 +18,7 @@ ul {
 
 li {
   float: left;
-  font-family: 'Press Start 2P';
+  font-family: "Press Start 2P";
   font-size: 2rem;
 }
 
@@ -54,13 +54,33 @@ li a {
   margin: auto;
   margin-top: 120px;
   width: 94%;
-  height: 70vh;
-  padding: 10px 50px;
   box-shadow: 5px 10px 18px #888888;
 }
 
+.title-div {
+  display: inline-block;
+  margin: 10px;
+}
+
 .title-text {
-  font-size: 4.5vw;
+  font-size: 9vh;
+}
+
+.RGB-div {
+  float: right;
+}
+
+.RGB-box {
+  display: block;
+  /* width: 200px; */
+  padding: 5.76vh;
+  text-align: center;
+}
+
+.RGB-text {
+  font-family: "Press Start 2P";
+  font-size: 11vh;
+  color: white;
 }
 
 .sticky {
@@ -87,24 +107,14 @@ li a {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(203, 74, 74);
-  background: linear-gradient(
-    180deg,
-    #e06666 0%,
-    #6aa84f 50%,
-    #3d85c6 100%
-  );
+  background: linear-gradient(180deg, #e06666 0%, #6aa84f 50%, #3d85c6 100%);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(203, 74, 74);
-  background: linear-gradient(
-    180deg,
-    #e06666 0%,
-    #6aa84f 50%,
-    #3d85c6 100%
-  );
+  background: linear-gradient(180deg, #e06666 0%, #6aa84f 50%, #3d85c6 100%);
   border-radius: 10px;
 }
 
