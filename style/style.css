@@ -8,6 +8,10 @@ body {
   background-attachment: fixed;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .pixel-font {
   font-family: "Press Start 2P";
 }
