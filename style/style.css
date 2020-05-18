@@ -54,16 +54,17 @@ li a {
   margin: auto;
   margin-top: 120px;
   width: 94%;
+  height: 67vh;
   box-shadow: 5px 10px 18px #888888;
 }
 
 .title-div {
   display: inline-block;
-  margin: 10px;
+  margin-left: 40px;
 }
 
 .title-text {
-  font-size: 9vh;
+  font-size: 7vh;
 }
 
 .RGB-div {
@@ -72,14 +73,14 @@ li a {
 
 .RGB-box {
   display: block;
-  /* width: 200px; */
-  padding: 5.76vh;
+  padding: 5vh;
+  height: 12.34vh;
   text-align: center;
 }
 
 .RGB-text {
   font-family: "Press Start 2P";
-  font-size: 11vh;
+  font-size: 10.3vh;
   color: white;
 }
 
