@@ -124,6 +124,10 @@ li a:hover {
   height: 100vh;
 }
 
+.section-top {
+  height: 80vh;
+}
+
 .main-box {
   margin: auto;
   margin-top: 120px;
