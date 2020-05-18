@@ -30,6 +30,10 @@ li,
   font-size: 1.5rem !important;
 }
 
+li a {
+    margin-right: 1vw;
+}
+
 li a:hover {
   background: -webkit-linear-gradient(
     0deg,
