@@ -42,7 +42,7 @@ li a {
   position: fixed;
   z-index: 9000;
   overflow: auto;
-  transition: all 0.5s linear;
+  transition: all 0.2s linear;
 }
 
 #header.active {
