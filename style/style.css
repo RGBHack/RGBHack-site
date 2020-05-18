@@ -8,6 +8,14 @@ body {
   background-attachment: fixed;
 }
 
+.pixel-font {
+  font-family: "Press Start 2P";
+}
+
+p {
+  font-family: "Space Mono", monospace;
+}
+
 r {
   color: #e06666;
 }
