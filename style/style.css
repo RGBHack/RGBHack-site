@@ -54,6 +54,11 @@ li a:hover {
   margin: 0 auto;
 }
 
+.header {
+    color: black;
+    background-color: white;
+}
+
 #header {
   padding: 10px 16px;
   color: black;
