@@ -275,3 +275,8 @@ li a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
