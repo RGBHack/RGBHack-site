@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <link rel="stylesheet" type="text/css" href="./style/style.css" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
@@ -18,9 +18,15 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     <title>RGBHack</title>
+    <script>
+      if ($(window).width() < 1181) {
+   alert('Warning: this site isn\'t yet optimized for smaller screens. For a better experience, please visit it on a computer. Sorry for the inconvenience!');
+}
+    </script>
   </head>
   
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
