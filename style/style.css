@@ -21,33 +21,21 @@ p {
 }
 
 r {
-  background: -webkit-linear-gradient(
-    0deg,
-    #f64040ff,
-    #ffb217ff
-  );
+  background: -webkit-linear-gradient(0deg, #f64040ff, #ffb217ff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 g {
-  background: -webkit-linear-gradient(
-    0deg,
-    #3cff4aff,
-    #2bffe5ff
-  );
+  background: -webkit-linear-gradient(0deg, #3cff4aff, #2bffe5ff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 bl {
-  background: -webkit-linear-gradient(
-    0deg,
-    #2e56ffff,
-    #774cffff
-  );
+  background: -webkit-linear-gradient(0deg, #2e56ffff, #774cffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -218,6 +206,13 @@ li a:hover {
 
 .sticky + .content {
   padding-top: 102px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
 }
 
 /* width */
