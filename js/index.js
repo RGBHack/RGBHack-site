@@ -18,10 +18,8 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 0) {
         $("#header").addClass("active");
-        console.log("scroll start")
     }
     else {
         $("#header").removeClass("active");
-        console.log("scroll stop")
     }
 });
