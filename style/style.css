@@ -88,7 +88,6 @@ li a:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* background-color: transparent; */
 }
 
 .main {
@@ -205,7 +204,7 @@ li a:hover {
 .carousel-control-next,
 .carousel-control-prev,
 .carousel-indicators {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 .sticky {
