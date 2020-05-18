@@ -8,7 +8,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono&display=swap"
       rel="stylesheet"
-    />
+    /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <script src="https://unpkg.com/aos@2.1.1/dist/aos.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -19,7 +22,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>RGBHack</title>
   </head>
+  
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <script>
+      AOS.init();
+    </script>
     <svg width="0" height="0" class="hidden">
         <svg width="0" height="0" class="hidden">
             <symbol viewBox="0 0 24 24" id="github-icon">
@@ -27,7 +34,7 @@
             </symbol>
         </svg>
     </svg>
-      <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top header" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top header" id="header" data-aos="fade-down">
         <div class="container">
             <a href="#">
                 <b class="navbar-brand p2p" href="#"><b></b><r>R</r><g>G</g><bl>B</bl>Hack</b></a>
@@ -54,8 +61,8 @@
     <div class="main">
       <div class="content">
         <div class="section">
-          <div class="main-box">
-            <div class="title-div">
+          <div class="main-box" data-aos="fade-right">
+            <div class="title-div"  >
               <p
                 class="title-text"
                 style="margin-bottom: 10px; margin-top: 5px; font-family: 'Space Mono'"
@@ -65,30 +72,57 @@
               </p>
               <div>
                 <p class="title-text" style="margin: 0;">
-                  <span style="color: #f64040ff; font-family: 'Press Start 2P';"
+                  <span style="background: -webkit-linear-gradient(
+                    0deg,
+                    #f64040ff,
+                    #ffb217ff
+                  ); -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; font-family: 'Press Start 2P';"
                     >Reimagine</span
                   ><br />
-                  <span style="color: #3cff4aff; font-family: 'Press Start 2P';"
+                  <span style="background: -webkit-linear-gradient(
+                    0deg,
+                    #3cff4aff,
+                    #2bffe5ff
+                  ); -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;font-family: 'Press Start 2P';"
                     >Generate</span
                   ><br />
-                  <span style="color: #2e56ffff; font-family: 'Press Start 2P';"
+                  <span style="background: -webkit-linear-gradient(
+                    0deg,
+                    #2e56ffff,
+                    #774cffff
+                  ); -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;font-family: 'Press Start 2P';"
                     >Build</span
                   >
                   <br />
                 </p>
               </div>
               <p class="title-text" style="margin-top: 0; margin-bottom: 5px; font-family: 'Space Mono'">
-                through <span class="gradient">computer science.</span>
+                through <b>computer science</b>.
               </p>
             </div>
             <div class="RGB-div">
-              <div class="RGB-box" style="background-color: #f64040ff;">
+              <div class="RGB-box" style="background: -webkit-linear-gradient(
+                270deg,
+                #f64040ff,
+                #ffb217ff
+              );">
                 <span class="RGB-text">R</span>
               </div>
-              <div class="RGB-box" style="background-color: #3cff4aff;">
+              <div class="RGB-box" style="background: -webkit-linear-gradient(
+                270deg,
+                #3cff4aff,
+                #2bffe5ff
+              );">
                 <span class="RGB-text">G</span>
               </div>
-              <div class="RGB-box" style="background-color: #2e56ffff;">
+              <div class="RGB-box" style="background: -webkit-linear-gradient(
+                270deg,
+                #2e56ffff,
+                #774cffff
+              );">
                 <span class="RGB-text">B</span>
               </div>
             </div>
@@ -97,11 +131,11 @@
       </div>
       <div class="content">
         <div class="section"  id="awards" style="padding-top: 15vh;">
-          <div class="title-box">
+          <div class="title-box"  data-aos="fade-down">
             <p class="title">Awards</p>
           </div>
           <div class="content-div">
-          <div class="content-box" style="float: left;">
+          <div class="content-box" style="float: left;" data-aos="fade-up-right">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -125,7 +159,7 @@
             </a>
             </div>
           </div>
-          <div class="content-box" style="float: right; padding: 3vh;">
+          <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
               <p class="pixel-font" style="text-align: center; font-size: 4vh;">Latest Awards</p>
               <p style="font-size: 3vh;">Our most recent project was AlzheimersAI, a tracking and identification system for Alzheimer's Disease. We earned the Best Social Good Award at the 2020 StanHacks 2 Hackathon and the Best Use of Google Cloud Award & Honorable Mention at the 2020 HackDSC Hackathon.</p>
           </div>
@@ -134,11 +168,11 @@
       </div>
             <div class="content">
         <div class="section"  id="projects" style="padding-top: 15vh;">
-          <div class="title-box">
+          <div class="title-box"  data-aos="fade-down">
             <p class="title">Projects</p>
           </div>
           <div class="content-div">
-            <div class="content-box" style="float: left; padding: 3vh;">
+            <div class="content-box" style="float: left; padding: 3vh;" data-aos="fade-up-right">
                 <p class="pixel-font" style="text-align: left; font-size: 4vh;">Spark</p>
                 <p style="font-size: 3.16vh; margin-bottom: 0;">An empowering all-in-one productivity web app. Renders iframes to show multiple web pages in the one page. Features: Calendar, Tasks, Team Administration, Project Tracking, Messages, Meetings and Zoom Integration, Discussion Boards.</p>
                 <a href="https://github.com/RGBHack/Spark" target="_blank">
@@ -147,7 +181,7 @@
                 </svg>
                 </a>
             </div>
-            <div class="content-box" style="float: right; padding: 3vh;">
+            <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
                 <p class="pixel-font" style="text-align: left; font-size: 4vh;">AlzheimersAI</p>
                 <p style="font-size: 3.2vh; margin-bottom: 0;">A website for early detection and tracking of Alzheimer's disease using AI. Best Social Good Award at 2020 StanHacks 2 Hackathon, Best Use of Google Cloud Award and Honorable Mention at 2020 HackDSC Hackathon.</p>
                 <a href="https://github.com/RGBHack/AlzheimersAI" target="_blank">
@@ -175,6 +209,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/index.js"></script>
   </body>
 </html>

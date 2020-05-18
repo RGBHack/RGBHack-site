@@ -57,10 +57,12 @@ li,
 .p2p {
   font-family: "Press Start 2P" !important;
   font-size: 1.5rem !important;
+  transition: all 0.5s ease-in-out;
 }
 
 li a {
   margin-right: 1vw;
+  transition: all 0.5s ease-in-out;
 }
 
 li a:hover {
