@@ -1,2 +1,2 @@
-# RGBHack-site
+# RGBHack
 Official website for RBGHack.
