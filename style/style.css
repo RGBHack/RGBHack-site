@@ -201,6 +201,24 @@ li a:hover {
   vertical-align: middle;
 }
 
+.team-box {
+  margin: auto;
+  width: 94%;
+  box-shadow: 5px 10px 18px #888888;
+  width: 17vw;
+  height: 55vh;
+  background-color: white;
+  margin-top: 5vh;
+  display: inline-block;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
 .carousel-control-next,
 .carousel-control-prev,
 .carousel-indicators {
