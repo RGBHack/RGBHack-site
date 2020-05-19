@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+footer {
+  text-align: center;
+}
+
 .pixel-font {
   font-family: "Press Start 2P";
 }
