@@ -27,10 +27,3 @@ $(document).ready(function () {
     return false;
   });
 });
-
-window.addEventListener("hashchange", function () {
-  document.querySelector(".active").classList.remove("active");
-  document
-    .querySelector('[href="' + window.location.hash + '"]')
-    .classList.add("active");
-});
