@@ -207,9 +207,9 @@ li a:hover {
 }
 
 .award-list li:before {
-    content: "\2B50";
-    margin-left: -20px;
-    margin-right: 10px;
+  content: "\2B50";
+  margin-left: -20px;
+  margin-right: 10px;
 }
 
 .project-img {
