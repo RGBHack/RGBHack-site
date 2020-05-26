@@ -200,6 +200,18 @@ li a:hover {
   display: inline-block;
 }
 
+.award-list {
+  font-family: "Space Mono", monospace !important;
+  font-size: 4vh !important;
+  list-style: none;
+}
+
+.award-list li:before {
+    content: "\2B50";
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
 .project-img {
   display: inline-block;
   margin: auto;
